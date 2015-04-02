@@ -14,6 +14,6 @@ Or place it into a file named <code>wifimac.command</code>, then execute by doub
 
 Administrator password required.
 
-The script can be re-executed periodically to start a new access time period.
+The script can be re-executed periodically to start a new wifi hotspot access time period.
 
 The MAC address will reset to default hardware value on the next computer restart.
