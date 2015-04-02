@@ -1,10 +1,19 @@
 # wifimac
-For MacOS, a BASH script for setting the wifi MAC address to a random value, thus bypassing time limits in public hotspots.
+Some public wifi hotspots limit access time. This limit is usually enforced per hardware MAC address
+of the wifi interface for each computer.
 
-Place into a file named wifimac.sh, then execute from the terminal command line:
+To bypass such time limits, this BASH script for Macintosh computers sets the wifi MAC address to a random value.
+(The second-least-significant bit of the most significant byte of the address is set to 1,
+indicating a locally administered address.)
+
+Place the script into a file named <code>wifimac.sh</code>, then execute from the terminal command line:
+<pre>
   bash wifimac.sh
-Or place into a file named wifimac.command, then execute by double-clicking.
+</pre>
+Or place it into a file named <code>wifimac.command</code>, then execute by double-clicking.
 
 Administrator password required.
 
-MAC address will reset to default hardware value on next computer restart.
+The script can be re-executed periodically to start a new access time period.
+
+The MAC address will reset to default hardware value on the next computer restart.
