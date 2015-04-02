@@ -2,7 +2,7 @@
 Some public wifi hotspots limit access time. This limit is usually enforced per hardware MAC address
 of the wifi interface for each computer.
 
-To bypass such time limits, this BASH script for Macintosh computers sets the wifi MAC address to a random value.
+To bypass such time limits, this Bash script for Macintosh computers sets the wifi MAC address to a random value.
 (The second-least-significant bit of the most significant byte of the address is set to 1,
 indicating a locally administered address.)
 
